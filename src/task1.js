@@ -10,4 +10,4 @@ let accompanied = true;
 
 if(age>11 || accompanied == true){
     console.log("let him in ")
-} else {"fuck off"}
+} else {"not allowed"}
