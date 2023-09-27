@@ -1,13 +1,20 @@
-const string = "i AM master of jaVAscRIPT";
-console.log('i AM master of jaVAscRIPT') 
-let strX = string.split(' ')
-//console.log(strX[0].toUpperCase().concat(strX[1].toLowerCase().concat(strX[2]).caoncat(strX[3]).cancat(strX[4].charAt(0).concat(strX[4].slice(1)))))
-//console.log(string.splice(1,1))
+let numberOfApples = 29; 
+let numberOfChildren  = 9; 
+let wholeApples; 
+let leftApples;
 
-let age = 11;
-let accompanied = true;
+wholeApples = Math.floor(numberOfApples / numberOfChildren)
+console.log("Every child can have " + wholeApples + " apples.");
+
+leftApples = numberOfApples % numberOfChildren;
+console.log(leftApples + " apples are left after distribution.");
 
 
-if(age>11 || accompanied == true){
-    console.log("let him in ")
-} else {"not allowed"}
+/*let wholeApples; 
+let leftApples;
+
+wholeApples = Math.floor(numberOfApples / numberOfChildren)
+console.log("Every child can have " + wholeApples + " apples.");
+
+leftApples = numberOfApples - (numberOfChildren*wholeApples);
+console.log(leftApples + " apples are left after distribution.");*/
